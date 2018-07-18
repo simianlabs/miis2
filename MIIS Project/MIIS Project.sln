@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIIS - Unit Management", "MIIS - Unit Management\MIIS - Unit Management.csproj", "{11B5317E-668F-4DEB-B29D-E6E8F5DD818E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://skyneo.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MIIS\u0020-\u0020Unit\u0020Management\\MIIS\u0020-\u0020Unit\u0020Management.csproj
+		SccProjectName1 = MIIS\u0020-\u0020Unit\u0020Management
+		SccLocalPath1 = MIIS\u0020-\u0020Unit\u0020Management
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11B5317E-668F-4DEB-B29D-E6E8F5DD818E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B5317E-668F-4DEB-B29D-E6E8F5DD818E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B5317E-668F-4DEB-B29D-E6E8F5DD818E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B5317E-668F-4DEB-B29D-E6E8F5DD818E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

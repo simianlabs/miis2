@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Biodata", "Biodata", "{91AADF95-344B-49DF-9312-466F0F662033}"
+	ProjectSection(SolutionItems) = preProject
+		Biodata\Biodata.Windows\bin\x86\Debug\BioDataDB.db = Biodata\Biodata.Windows\bin\x86\Debug\BioDataDB.db
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Biodata.Shared", "Biodata\Biodata.Shared\Biodata.Shared.shproj", "{F02BB948-A7B2-4F42-A444-A75FF5F4D29C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biodata.Windows", "Biodata\Biodata.Windows\Biodata.Windows.csproj", "{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Biodata\Biodata.Shared\Biodata.Shared.projitems*{42d10c1e-67f2-4d27-b86c-fb81aeddc464}*SharedItemsImports = 4
+		Biodata\Biodata.Shared\Biodata.Shared.projitems*{f02bb948-a7b2-4f42-a444-a75ff5f4d29c}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://skyneo.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Biodata\\Biodata.Shared\\Biodata.Shared.projitems
+		SccProjectTopLevelParentUniqueName1 = MIIS\u0020BioData.sln
+		SccProjectName1 = Biodata/Biodata.Shared
+		SccLocalPath1 = Biodata\\Biodata.Shared
+		SccProjectUniqueName2 = Biodata\\Biodata.Shared\\Biodata.Shared.shproj
+		SccProjectTopLevelParentUniqueName2 = MIIS\u0020BioData.sln
+		SccProjectName2 = Biodata/Biodata.Shared
+		SccLocalPath2 = Biodata\\Biodata.Shared
+		SccProjectUniqueName3 = Biodata\\Biodata.Windows\\Biodata.Windows.csproj
+		SccProjectTopLevelParentUniqueName3 = MIIS\u0020BioData.sln
+		SccProjectName3 = Biodata/Biodata.Windows
+		SccLocalPath3 = Biodata\\Biodata.Windows
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|ARM.ActiveCfg = Debug|ARM
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|ARM.Build.0 = Debug|ARM
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|ARM.Deploy.0 = Debug|ARM
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|x64.ActiveCfg = Debug|x64
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|x64.Build.0 = Debug|x64
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|x64.Deploy.0 = Debug|x64
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|x86.ActiveCfg = Debug|x86
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|x86.Build.0 = Debug|x86
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Debug|x86.Deploy.0 = Debug|x86
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|ARM.ActiveCfg = Release|ARM
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|ARM.Build.0 = Release|ARM
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|ARM.Deploy.0 = Release|ARM
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|x64.ActiveCfg = Release|x64
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|x64.Build.0 = Release|x64
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|x64.Deploy.0 = Release|x64
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|x86.ActiveCfg = Release|x86
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|x86.Build.0 = Release|x86
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F02BB948-A7B2-4F42-A444-A75FF5F4D29C} = {91AADF95-344B-49DF-9312-466F0F662033}
+		{42D10C1E-67F2-4D27-B86C-FB81AEDDC464} = {91AADF95-344B-49DF-9312-466F0F662033}
+	EndGlobalSection
+EndGlobal
